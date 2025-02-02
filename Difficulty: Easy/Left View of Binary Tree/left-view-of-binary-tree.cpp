@@ -31,7 +31,7 @@ class Solution {
     vector<int> leftView(Node *root) {
         // code here
          vector<int>ans;
-         if(!root)
+         if(!root)  //null ko push nhi karayenge 
          return ans; 
          
         queue<Node *>q;
